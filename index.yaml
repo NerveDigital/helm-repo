@@ -3,42 +3,42 @@ entries:
   cluster-addons:
   - apiVersion: v2
     appVersion: main
-    created: "2025-04-16T06:19:33.1739901Z"
+    created: "2025-04-18T07:14:36.111144196Z"
     description: Helm chart that deploys cluster addons for a CAPI cluster.
-    digest: 55298cd0d2092b339f476d3c6f5f10ffed42b0f449add37b419127b25c380761
+    digest: 43bc5f9fba5f03591a1b3cdc4190e10cf83becff3d1cc5a906ce19fa253ee752
     name: cluster-addons
     type: application
     urls:
-    - https://nervedigital.github.io/helm-repo/cluster-addons-0.1.0.tgz
+    - https://NerveDigital.github.io/helm-repo/cluster-addons-0.1.0.tgz
     version: 0.1.0
   etcd-defrag:
   - apiVersion: v2
     appVersion: main
-    created: "2025-04-16T06:19:33.174938725Z"
+    created: "2025-04-18T07:14:36.112153486Z"
     description: Helm chart for deploying a cronjob to do etcd defragmentation on
       a kubeadm cluster.
-    digest: 191cd893b73d1ed1cb41784efcf25bfaf2121b93a09cf76ae4d0e91d785aa8c3
+    digest: e97941e2b4226c77c5056be8e3c16abed9b67ad11450633991939be87dc21590
     name: etcd-defrag
     type: application
     urls:
-    - https://nervedigital.github.io/helm-repo/etcd-defrag-0.1.0.tgz
+    - https://NerveDigital.github.io/helm-repo/etcd-defrag-0.1.0.tgz
     version: 0.1.0
   openstack-cluster:
   - apiVersion: v2
-    appVersion: main
-    created: "2025-04-16T06:19:33.183293376Z"
+    appVersion: 856f8fb
+    created: "2025-04-18T07:14:36.121115725Z"
     dependencies:
     - alias: addons
       condition: addons.enabled
       name: cluster-addons
       repository: file://../cluster-addons
-      version: 0.1.0
+      version: '>=0-0'
     description: Helm chart for deploying a cluster on an OpenStack cloud using Cluster
       API.
-    digest: 9c26371d989150a3c6278f0212227d01fe5092edf35d5ea1ad0cd8efe91aa879
+    digest: a24fb42b3c1a64de2f20a6d38fe5be8f81adbbf0ad569ec0d21ff2ca33ec7170
     name: openstack-cluster
     type: application
     urls:
-    - https://nervedigital.github.io/helm-repo/openstack-cluster-0.1.0.tgz
-    version: 0.1.0
-generated: "2025-04-16T06:19:33.152990651Z"
+    - https://NerveDigital.github.io/helm-repo/openstack-cluster-0.10.1.tgz
+    version: 0.10.1
+generated: "2025-04-18T07:14:36.103492271Z"
