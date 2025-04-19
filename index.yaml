@@ -3,30 +3,30 @@ entries:
   cluster-addons:
   - apiVersion: v2
     appVersion: main
-    created: "2025-04-18T07:14:36.111144196Z"
+    created: "2025-04-19T06:37:32.330760772Z"
     description: Helm chart that deploys cluster addons for a CAPI cluster.
-    digest: 43bc5f9fba5f03591a1b3cdc4190e10cf83becff3d1cc5a906ce19fa253ee752
+    digest: 0a013b19945801c70b6d5bdc5332a1989aeeb85688c22adde813f63b6652f83b
     name: cluster-addons
     type: application
     urls:
-    - https://NerveDigital.github.io/helm-repo/cluster-addons-0.1.0.tgz
+    - https://NerveDigital.github.io/capi/helm-repo/cluster-addons-0.1.0.tgz
     version: 0.1.0
   etcd-defrag:
   - apiVersion: v2
     appVersion: main
-    created: "2025-04-18T07:14:36.112153486Z"
+    created: "2025-04-19T06:37:32.331275324Z"
     description: Helm chart for deploying a cronjob to do etcd defragmentation on
       a kubeadm cluster.
-    digest: e97941e2b4226c77c5056be8e3c16abed9b67ad11450633991939be87dc21590
+    digest: a86c512e50d1ba9ba6cd68fce69da089101329f0c84a37295f0d5b2d90d6d1f4
     name: etcd-defrag
     type: application
     urls:
-    - https://NerveDigital.github.io/helm-repo/etcd-defrag-0.1.0.tgz
+    - https://NerveDigital.github.io/capi/helm-repo/etcd-defrag-0.1.0.tgz
     version: 0.1.0
   openstack-cluster:
   - apiVersion: v2
     appVersion: 856f8fb
-    created: "2025-04-18T07:14:36.121115725Z"
+    created: "2025-04-19T06:37:32.337897707Z"
     dependencies:
     - alias: addons
       condition: addons.enabled
@@ -35,10 +35,10 @@ entries:
       version: '>=0-0'
     description: Helm chart for deploying a cluster on an OpenStack cloud using Cluster
       API.
-    digest: a24fb42b3c1a64de2f20a6d38fe5be8f81adbbf0ad569ec0d21ff2ca33ec7170
+    digest: 977e1a07fee2efb0f657f5352f2d8f8a84d01d528faf135bb337e2dd50fcb96f
     name: openstack-cluster
     type: application
     urls:
-    - https://NerveDigital.github.io/helm-repo/openstack-cluster-0.10.1.tgz
+    - https://NerveDigital.github.io/capi/helm-repo/openstack-cluster-0.10.1.tgz
     version: 0.10.1
-generated: "2025-04-18T07:14:36.103492271Z"
+generated: "2025-04-19T06:37:32.326883226Z"
