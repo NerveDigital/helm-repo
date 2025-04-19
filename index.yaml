@@ -9,7 +9,7 @@ entries:
     name: cluster-addons
     type: application
     urls:
-    - https://NerveDigital.github.io/capi/helm-repo/cluster-addons-0.1.0.tgz
+    - https://NerveDigital.github.io/helm-repo/cluster-addons-0.1.0.tgz
     version: 0.1.0
   etcd-defrag:
   - apiVersion: v2
@@ -21,7 +21,7 @@ entries:
     name: etcd-defrag
     type: application
     urls:
-    - https://NerveDigital.github.io/capi/helm-repo/etcd-defrag-0.1.0.tgz
+    - https://NerveDigital.github.io/helm-repo/etcd-defrag-0.1.0.tgz
     version: 0.1.0
   openstack-cluster:
   - apiVersion: v2
@@ -39,6 +39,6 @@ entries:
     name: openstack-cluster
     type: application
     urls:
-    - https://NerveDigital.github.io/capi/helm-repo/openstack-cluster-0.10.1.tgz
+    - https://NerveDigital.github.io/helm-repo/openstack-cluster-0.10.1.tgz
     version: 0.10.1
 generated: "2025-04-19T06:37:32.326883226Z"
