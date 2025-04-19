@@ -3,7 +3,7 @@ entries:
   cluster-addons:
   - apiVersion: v2
     appVersion: main
-    created: "2025-04-19T06:37:32.330760772Z"
+    created: "2025-04-19T06:44:08.2185046Z"
     description: Helm chart that deploys cluster addons for a CAPI cluster.
     digest: 0a013b19945801c70b6d5bdc5332a1989aeeb85688c22adde813f63b6652f83b
     name: cluster-addons
@@ -14,7 +14,7 @@ entries:
   etcd-defrag:
   - apiVersion: v2
     appVersion: main
-    created: "2025-04-19T06:37:32.331275324Z"
+    created: "2025-04-19T06:44:08.218883322Z"
     description: Helm chart for deploying a cronjob to do etcd defragmentation on
       a kubeadm cluster.
     digest: a86c512e50d1ba9ba6cd68fce69da089101329f0c84a37295f0d5b2d90d6d1f4
@@ -26,7 +26,7 @@ entries:
   openstack-cluster:
   - apiVersion: v2
     appVersion: 856f8fb
-    created: "2025-04-19T06:37:32.337897707Z"
+    created: "2025-04-19T06:44:08.224057925Z"
     dependencies:
     - alias: addons
       condition: addons.enabled
@@ -41,4 +41,4 @@ entries:
     urls:
     - https://NerveDigital.github.io/helm-repo/openstack-cluster-0.10.1.tgz
     version: 0.10.1
-generated: "2025-04-19T06:37:32.326883226Z"
+generated: "2025-04-19T06:44:08.215616736Z"
